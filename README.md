@@ -2,15 +2,12 @@
 
 # Machine-Learning-and-Statistics-Winter-21-22
 
-
-# i) Introduction
+## i) Introduction
 
 This GitHub repository contains two Jupyter notebooks with a key focus on the following Python libraries;
 
 1) `scikit-learn`
 2) `scipy.stats`
-
-<br/>
 
 There are separate sections for each of the aforementioned Python libraries included in this README. Each section includes the objectives for that notebook and details how these objectives are met. This repository accounts for 100% of the marks for the module "Machine Learning and Statistics in Winter 2021/2022". 
 
@@ -18,15 +15,9 @@ Along with the README and the two notebooks there are data files, image files an
 
 Also included in this README are instructions on how to install the required packages and how to run the notebooks after the packages have been installed.
 
-<br/>
-
 ## ii) Instructions on installing required packages
 
-<br/>
-
 The code in this repository has been written in Python 3. It's recommended to use the conda Python distribution. You can install either [miniconda](https://docs.conda.io/en/latest/miniconda.html) (much smaller, only essential packages) or the full [anaconda distribution](https://www.anaconda.com/products/individual) (very extensive, but very, very large). 
-
-<br/>
 
 There is a requirements.txt file included in the repository which includes all the required packages and their versions.
 
@@ -35,8 +26,6 @@ pip install -r requirements.txt
 ```
 
 ## iii) Navigating and running the files in the repository
-
-<br/>
 
 Having installed either [miniconda](https://docs.conda.io/en/latest/miniconda.html) or [anaconda distribution](https://www.anaconda.com/products/individual) means Jupyter notebook should be installed on your machine. To check this type the following on the command line of Cmder or similar;
 ```
@@ -58,9 +47,6 @@ Select either of the notebooks and work through the information. There are numer
 
 Alternatively you can select the `Kernel` button at the top of the page in the ribbon and select the option to `Restart & Clear Output`. This will automatically run all the cells in the notebook. Then you can scroll up and down through the information.
 
-<br/>
-
-
 ## iv) Repository overview
 
 This repository includes the following information:
@@ -74,19 +60,13 @@ This repository includes the following information:
 - `scikit-learn.ipynb` - Jupyter notebook for the scikit-learn part of the assessment.
 - `scipy.stats.ipynb` - Jupyter notebook for the scipy.stats part of the assessment.
 
-<br/>
-<br/>
+## 1) scikit-learn Jupyter Notebook
 
-# 1) scikit-learn Jupyter Notebook
-
-## Notebook objectives
-<br/>
+### Notebook objectives
 
 * Provide a clear and concise overview of the scikit-learn Python library.
 * Provide demonstrations of three interesting scikit-learn algorithms. You may choose these yourself, based on what is covered in class or otherwise. Note that the demonstrations are at your discretion – you may choose to have an overall spread of examples across the library or pick a particular part that you find interesting.
 * Appropriate plots and other visualisations to enhance your notebook for viewers.
-
-<br/>
 
 This notebook starts out with an overview of the scikit-learn Python library; what it is, where it came from and where and why it is used. The following section details machine learning and it's relationship to artificial intelligence and computer science. Where machine learning is used, how common it has become and how it's used on a daily basis across everything from streaming platforms to banks and social media is discussed.
 
@@ -102,11 +82,9 @@ With the introduction complete and some background on machine learning along wit
 * For the RandomForestClassifier() algorithm the Iris dataset along with a dataset obtained from my workplace are used for demonstration.
 * For the KNeighborsClassifier() algorithm the breast-cancer-wisconsin dataset was used for demonstration.
 
-<br/>
+## 2) scipy.stats Jupyter Notebook
 
-# 2) scipy.stats Jupyter Notebook
-
-## Notebook objectives
+### Notebook objectives
 
 * Provide a clear and concise overview of the scipy.stats Python library
 * Provide an example hypothesis test using ANOVA. You should find a data set on which it is appropriate to use ANOVA, ensure the assumptions underlying ANOVA are met, and then perform and display the results of your ANOVA using scipy.stats.
@@ -135,6 +113,6 @@ A second ANOVA is then complete using data obtained from my workplace. It's good
 
 For the homogeneity of variances test the levene test was used. The p-value if 1.188e-05 is less than the significance level which was 0.05. The result here is that we must reject the null hypothesis that the variability from the towers is equal. There is enough evidence to conclude that the variability in the towers is different. For learning purposes it was decided to continue with the ANOVA but using 3 machines instead of 4 and dropping "Tower 4". Using the 3 machines the ANOVA is complete and followed up with some post hoc testing by way of a Tukey test.
 
-## Contact
+### Author:
 
 Keith Quinn @ [G00387815@gmit.ie](mailto:G00387815@gmit.ie)
