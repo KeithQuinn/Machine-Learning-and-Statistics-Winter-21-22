@@ -12,9 +12,9 @@ This GitHub repository contains two Jupyter notebooks relating to the following 
 
 <br/>
 
-There are separate sections for each of the aforementioned Python libraries included in this README. Each section includes the objectives for that notebook and details how these objectives are met.
+There are separate sections for each of the aforementioned Python libraries included in this README. Each section includes the objectives for that notebook and details how these objectives are met. This repository accounts for 100% of the marks for the module "Machine Learning and Statistics in Winter 2021/2022". 
 
-Along with the README and the two notebooks there are data files, image files and other related files included in the repository. This content forms 100% of the marks for the module "Machine Learning and Statistics in Winter 2021/2022". 
+Along with the README and the two notebooks there are data files, image files and other related files included in the repository. 
 
 Also included in this README are instructions on how to install the required packages and how to run the notebooks after the packages have been installed.
 
