@@ -5,7 +5,7 @@
 
 # i) Introduction
 
-This GitHub repository contains two Jupyter notebooks relating to the following Python libraries;
+This GitHub repository contains two Jupyter notebooks with a key focus on the following Python libraries;
 
 1) `scikit-learn`
 2) `scipy.stats`
@@ -22,21 +22,57 @@ Also included in this README are instructions on how to install the required pac
 
 ## ii) Instructions on installing required packages
 
-
-<br/>
 <br/>
 
-## iii) Instructions on how to use this project
-
-- `name of notebook 1`
-- `name of notebook 2`
+The code in this repository has been written in Python 3. It's recommended to use the conda Python distribution. You can install either [miniconda](https://docs.conda.io/en/latest/miniconda.html) (much smaller, only essential packages) or the full [anaconda distribution](https://www.anaconda.com/products/individual) (very extensive, but very, very large). 
 
 <br/>
+
+There is a requirements.txt file included in the repository which includes all the required packages and their versions.
+
+```
+pip install -r requirements.txt
+```
+
+## iii) Navigating and running the files in the repository
+
+<br/>
+
+Having installed either [miniconda](https://docs.conda.io/en/latest/miniconda.html) or [anaconda distribution](https://www.anaconda.com/products/individual) means Jupyter notebook should be installed on your machine. To check this type the following on the command line of Cmder or similar;
+```
+jupyter --version
+```
+
+Next step is to clone to the Github repository https://github.com/KeithQuinn/Machine-Learning-and-Statistics-Winter-21-22.git. Change directory (`cd`) into this repository using the command line on Cmder or similar. Then run the Jupyter notebook by typing the following on the command line;
+
+```
+jupyter notebook
+```
+
+On some machines Jupyter starts in the browser automatically, if this doesn't happen for you, follow the instructions from the command line return. There will be a link there to copy and paste into your browser. Jupyter will open on the homepage, there are two files here for consideration at this point, thay are;
+
+- `scikit-learn.ipynb`
+- `scipy.stats.ipynb`
+
+Select either of the notebooks and work through the information. There are numerous ways to navigate the notebook. You can start at the top and work through the cells by holding shift and pressing the enter key. This will render the markdown cells and execute the code cells one at a time.
+
+Alternatively you can select the `Kernel` button at the top of the page in the ribbon and select the option to `Restart & Clear Output`. This will automatically run all the cells in the notebook. Then you can scroll up and down through the information.
+
 <br/>
 
 
 ## iv) Repository overview
 
+This repository includes the following information:
+
+- `data folder` - houses all the data files used in the two notebooks.
+- `img folder` - houses all the image files used in the two notebooks.
+- `.gitignore` - git ignore file to prevent certain files/folders from uploading to Github, .ipynb_chekpoints being an example.
+- `LICENCE` - licence file for copyright.
+- `README.md` - README file for the repository, currently reading!
+- `requirements.txt` - Requirements file that enables someone to quickly run these notebooks with minimal configuration.
+- `scikit-learn.ipynb` - Jupyter notebook for the scikit-learn part of the assessment.
+- `scipy.stats.ipynb` - Jupyter notebook for the scipy.stats part of the assessment.
 
 <br/>
 <br/>
